@@ -90,28 +90,24 @@ bitz collect
 
 ![image](https://github.com/user-attachments/assets/7c526a4b-07da-4ad5-889f-17674761b5e7)
 
-* Your Miner Node is Running successfully now.
-* Default CPU utilized is `1 core`, You can set the CPU cores for your Bitz miner. Stop the node with `Ctrl+C`, then replace your `8` with your system `cores` and enter the following command:
-```bash
-bitz collect --cores 8
-```
-* minimize screen: `Ctrl+A+D`
-* return screen: `screen -r bitz`
-* stop the node while in screen: `Ctrl+C`
-* screen lists: `screen -ls`
-* terminate and kill screen: `screen -XS bitz quit` (if you had multiple screens in list, replace `bitz` with `id` of screen.
-
----
 
 ### Usefull Commands
 * You have to enter these out of the screen session
 
-**Check account info:**
+Check account info:
 ```bash
 bitz account
 ```
 
-**Claim Bitz to your Node Wallet:**
+Claim Bitz to your Node Wallet:
 ```bash
 bitz claim
 ```
+minimize screen:
+  ```bash
+  Ctrl+A+D
+  ```
+ON/OFF: 
+```bash
+screen -r bitz
+ ```
