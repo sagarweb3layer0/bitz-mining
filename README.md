@@ -92,7 +92,6 @@ bitz collect
 
 
 ### Usefull Commands
-* You have to enter these out of the screen session
 
 Check account info:
 ```bash
