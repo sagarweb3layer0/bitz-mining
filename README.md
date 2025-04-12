@@ -88,6 +88,11 @@ Claim Bitz to your Node Wallet:
 ```bash
 bitz claim
 ```
+Edit  CPU Utilization, Use Ctrl+C, then replace your 8 with your system cores.
+```bash
+bitz collect --cores 8
+```
+
 minimize screen:
   ```bash
   Ctrl+A+D
