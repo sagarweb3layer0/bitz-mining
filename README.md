@@ -45,28 +45,6 @@ solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
 ```bash
 solana-keygen new
 ```
-* Set a password or skip by pressing `Enter`.
-* Save your Seed-Phrase & Public-Key
-* `Public-Key`: Is your node **Eclipse wallet address**.
-
-### 2. Export `Private-key`
-
-1- Find Keypair path:
-```bash
-solana config get
-```
-* It gives your Keypair path like this: `~/.config/solana/id.json`
-
-2- Export `Private-key`:
-```bash
-cat ~/.config/solana/id.json
-```
-* The exported array is your `Private-Key`, Save it.
-
-### 3. Import and Fund Node Wallet
-* Import `Private-Key` into your `Backpack` wallet.
-* Fund it with `ETH` on `Eclipse` Network
-
 ---
 
 ## Install Bitz
