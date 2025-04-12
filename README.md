@@ -41,7 +41,7 @@ solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
 ---
 
 ## Wallet CLI
-### 1. Create a CLI wallet
+### . Create a CLI wallet
 ```bash
 solana-keygen new
 ```
