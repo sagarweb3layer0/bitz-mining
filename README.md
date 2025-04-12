@@ -78,7 +78,7 @@ Check account info:
 bitz account
 ```
 
-link wallet:
+To integrate Node & Backpack address
 
 ```bash
 cat ~/.config/solana/id.json
