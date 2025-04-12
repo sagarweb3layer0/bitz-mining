@@ -58,7 +58,7 @@ cargo install bitz
 
 ## Run Bitz Miner
 ### 1. Open a screen
-By opening a screen, you can run any process in the background, so it won't get terminated if you closed your VPS. (Windows users must keep their terminal open)
+
 ```bash
 screen -S bitz
 ```
