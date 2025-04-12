@@ -78,6 +78,12 @@ Check account info:
 bitz account
 ```
 
+link wallet:
+
+```bash
+cat ~/.config/solana/id.json
+```
+
 Claim Bitz to your Node Wallet:
 ```bash
 bitz claim
